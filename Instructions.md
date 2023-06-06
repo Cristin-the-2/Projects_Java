@@ -100,8 +100,14 @@ var - тип для неявной типизации
 
         double y = iScanner.nextDouble();
 
+        iScanner.next() - считывает 1 элемент;
+        iScanner.nextInt() - считывает только число;
+        iScanner.nextLine() - считывает строчку.
+
 ## Форматы вывода
 
+        System.out.print(c); - вывод на одной строке
+        System.out.println(c); - вывод и переход на следующую строку
         System.out.printf("%d + %d = %d \n", a, b, c); - вывод форматированной строки
 
 - %d - маска, куда подставлять переменную
