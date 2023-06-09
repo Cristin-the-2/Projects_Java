@@ -1,0 +1,44 @@
+июн. 09, 2023 2:28:15 PM Projects_Java.HomeWorkSem02.Task03Logging main
+INFO: Programm started
+июн. 09, 2023 2:28:17 PM Projects_Java.HomeWorkSem02.Task03Logging Summation
+INFO: Summation started
+июн. 09, 2023 2:28:20 PM Projects_Java.HomeWorkSem02.Task03Logging Summation
+INFO: 3
+июн. 09, 2023 2:28:21 PM Projects_Java.HomeWorkSem02.Task03Logging Summation
+INFO: 5
+июн. 09, 2023 2:28:21 PM Projects_Java.HomeWorkSem02.Task03Logging Summation
+INFO: 8
+июн. 09, 2023 2:28:21 PM Projects_Java.HomeWorkSem02.Task03Logging Summation
+INFO: Summation finished
+июн. 09, 2023 2:28:22 PM Projects_Java.HomeWorkSem02.Task03Logging Subtractions
+INFO: Subtractions started
+июн. 09, 2023 2:28:24 PM Projects_Java.HomeWorkSem02.Task03Logging Subtractions
+INFO: 19
+июн. 09, 2023 2:28:25 PM Projects_Java.HomeWorkSem02.Task03Logging Subtractions
+INFO: 5
+июн. 09, 2023 2:28:25 PM Projects_Java.HomeWorkSem02.Task03Logging Subtractions
+INFO: 14
+июн. 09, 2023 2:28:25 PM Projects_Java.HomeWorkSem02.Task03Logging Subtractions
+INFO: Subtractions finished
+июн. 09, 2023 2:28:27 PM Projects_Java.HomeWorkSem02.Task03Logging Multiplication
+INFO: Multiplication started
+июн. 09, 2023 2:28:29 PM Projects_Java.HomeWorkSem02.Task03Logging Multiplication
+INFO: 2
+июн. 09, 2023 2:28:30 PM Projects_Java.HomeWorkSem02.Task03Logging Multiplication
+INFO: 4
+июн. 09, 2023 2:28:30 PM Projects_Java.HomeWorkSem02.Task03Logging Multiplication
+INFO: 8
+июн. 09, 2023 2:28:30 PM Projects_Java.HomeWorkSem02.Task03Logging Multiplication
+INFO: Multiplication finished
+июн. 09, 2023 2:28:33 PM Projects_Java.HomeWorkSem02.Task03Logging Division
+INFO: Division started
+июн. 09, 2023 2:28:35 PM Projects_Java.HomeWorkSem02.Task03Logging Division
+INFO: 15
+июн. 09, 2023 2:28:37 PM Projects_Java.HomeWorkSem02.Task03Logging Division
+INFO: 3
+июн. 09, 2023 2:28:37 PM Projects_Java.HomeWorkSem02.Task03Logging Division
+INFO: 5
+июн. 09, 2023 2:28:37 PM Projects_Java.HomeWorkSem02.Task03Logging Division
+INFO: Division finished
+июн. 09, 2023 2:28:39 PM Projects_Java.HomeWorkSem02.Task03Logging main
+INFO: Programm finished

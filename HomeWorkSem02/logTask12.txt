@@ -1,0 +1,28 @@
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 2, 5, 1, -7, 3, 64, 0
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: Start sorting Array
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 2, 1, 5, -7, 3, 64, 0
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 2, 1, -7, 5, 3, 64, 0
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 2, 1, -7, 3, 5, 64, 0
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 2, 1, -7, 3, 5, 0, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 1, 2, -7, 3, 5, 0, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 1, -7, 2, 3, 5, 0, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: 1, -7, 2, 3, 0, 5, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: -7, 1, 2, 3, 0, 5, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: -7, 1, 2, 0, 3, 5, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: -7, 1, 0, 2, 3, 5, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: -7, 0, 1, 2, 3, 5, 64
+июн. 09, 2023 2:11:11 PM Projects_Java.HomeWorkSem02.Task12 listSort
+INFO: Finished sorting Array
