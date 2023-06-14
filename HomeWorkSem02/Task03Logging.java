@@ -52,12 +52,12 @@ public class Task03Logging {
         Scanner sc = new Scanner(System.in, "cp866");
         System.out.print("Введи первое число: ");
         int num1 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num1));
+        logger.info("first num: " + Integer.toString(num1));
         System.out.print("Введи второе число: ");
         int num2 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num2));
+        logger.info("second num: " + Integer.toString(num2));
         System.out.printf("%d + %d = %d\n", num1, num2, (num1 + num2));
-        logger.info(Integer.toString(num1 + num2));
+        logger.info("result: " + Integer.toString(num1 + num2));
         logger.info("Summation finished");
     }
 
@@ -66,12 +66,12 @@ public class Task03Logging {
         Scanner sc = new Scanner(System.in, "cp866");
         System.out.print("Введи первое число: ");
         int num1 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num1));
+        logger.info("first num: " + Integer.toString(num1));
         System.out.print("Введи второе число: ");
         int num2 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num2));
+        logger.info("second num: " + Integer.toString(num2));
         System.out.printf("%d - %d = %d\n", num1, num2, (num1 - num2));
-        logger.info(Integer.toString(num1 - num2));
+        logger.info("result: " + Integer.toString(num1 - num2));
         logger.info("Subtractions finished");
     }
 
@@ -80,12 +80,12 @@ public class Task03Logging {
         Scanner sc = new Scanner(System.in, "cp866");
         System.out.print("Введи первое число: ");
         int num1 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num1));
+        logger.info("first num: " + Integer.toString(num1));
         System.out.print("Введи второе число: ");
         int num2 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num2));
+        logger.info("second num: " + Integer.toString(num2));
         System.out.printf("%d * %d = %d\n", num1, num2, (num1 * num2));
-        logger.info(Integer.toString(num1 * num2));
+        logger.info("result: " + Integer.toString(num1 * num2));
         logger.info("Multiplication finished");
     }
 
@@ -94,12 +94,12 @@ public class Task03Logging {
         Scanner sc = new Scanner(System.in, "cp866");
         System.out.print("Введи первое число: ");
         int num1 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num1));
+        logger.info("first num: " + Integer.toString(num1));
         System.out.print("Введи второе число: ");
         int num2 = Integer.valueOf(sc.nextLine());
-        logger.info(Integer.toString(num2));
+        logger.info("second num: " + Integer.toString(num2));
         System.out.printf("%d / %d = %d\n", num1, num2, (num1 / num2));
-        logger.info(Integer.toString(num1 / num2));
+        logger.info("result: " + Integer.toString(num1 / num2));
         logger.info("Division finished");
     }
 }
