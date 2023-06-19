@@ -251,3 +251,65 @@ var - тип для неявной типизации
             System.out.printf("== %s ==\n", str);
         }
         br.close();
+
+## Коллекции
+
+1. ArrayList
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        ArrayList<Integer> list2 = new ArrayList<>();
+        ArrayList<Integer> list3 = new ArrayList<>(10);
+        ArrayList<Integer> list4 = new ArrayList<>(list3);
+        
+        add(args) – добавляет элемент в список ( в т.ч. на нужную позицию)
+        get(pos) – возвращает элемент из списка по указанной позиции
+        indexOf(item) – первое вхождение или -1
+        lastIndexOf(item) – последнее вхождение или -1
+        remove(pos) – удаление элемента на указанной позиции и его возвращение
+        set(int pos, T item) – помещает значение item элементу, который находится
+        на позиции pos
+        void sort(Comparator) – сортирует набор данных по правилу
+        subList(int start, int end) – получение набора данных от позиции start до end
+
+2. StringBuilder
+
+        StringBuilder day = new StringBuilder("28");
+        StringBuilder month = new StringBuilder("9");
+        StringBuilder year = new StringBuilder("1990");
+        StringBuilder[] date = { day, month, year };
+
+        clear() – очистка списка
+        toString() – «конвертация» списка в строку
+        Arrays.asList – преобразует массив в список
+        containsAll(col) – проверяет включение всех элементов из col
+        removeAll(col) – удаляет элементы, имеющиеся в col
+        retainAll(col) – оставляет элементы, имеющиеся в col
+        toArray() – конвертация списка в массив Object’ов
+        toArray(type array) – конвертация списка в массив type
+        List.copyOf(col) – возвращает копию списка на основе имеющегося
+        List.of(item1, item2,...) – возвращает неизменяемый список
+
+3. LinkedList - двусвязный список (хранит инфо, где следующий и предыдущий элеметы)
+4. Queue
+
+        Queue<Integer> queue = new LinkedList<Integer>();
+5. PriorityQueue - приоритетимеет наименьший элемент в очереди
+6. Deque
+
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.addFirst(1); 
+        deque.addLast(2);
+        deque.removeLast();
+        deque.offerFirst(1); 
+        deque.offerLast(2);
+        deque.pollFirst(); 
+        deque.pollLast();
+        deque.getFirst(); 
+        deque.getLast();
+        deque.peekFirst(); 
+        deque.peekLast();
+
+7. Stack - first in, last out
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.pop();
