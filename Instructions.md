@@ -271,7 +271,6 @@ var - тип для неявной типизации
         subList(int start, int end) – получение набора данных от позиции start до end
 
 2. StringBuilder
-
         StringBuilder day = new StringBuilder("28");
         StringBuilder month = new StringBuilder("9");
         StringBuilder year = new StringBuilder("1990");
@@ -290,11 +289,10 @@ var - тип для неявной типизации
 
 3. LinkedList - двусвязный список (хранит инфо, где следующий и предыдущий элеметы)
 4. Queue
-
         Queue<Integer> queue = new LinkedList<Integer>();
+
 5. PriorityQueue - приоритетимеет наименьший элемент в очереди
 6. Deque
-
         Deque<Integer> deque = new ArrayDeque<>();
         deque.addFirst(1); 
         deque.addLast(2);
@@ -309,7 +307,6 @@ var - тип для неявной типизации
         deque.peekLast();
 
 7. Stack - first in, last out
-
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         stack.pop();
