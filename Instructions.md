@@ -291,7 +291,7 @@ var - тип для неявной типизации
 4. Queue
         Queue<Integer> queue = new LinkedList<Integer>();
 
-5. PriorityQueue - приоритетимеет наименьший элемент в очереди
+5. PriorityQueue - приоритет имеет наименьший элемент в очереди
 6. Deque
         Deque<Integer> deque = new ArrayDeque<>();
         deque.addFirst(1); 
@@ -310,3 +310,36 @@ var - тип для неявной типизации
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         stack.pop();
+
+8. HashMap
+        Map<Integer, String> db = new HashMap<>();
+        put(K,V) – добавить пару если или изменить значение,если ключ имеется.
+        putIfAbsent(K,V) – произвести добавление если ключ не найден.
+        get(K) - получение значения по указанному ключу.
+        remove(K) – удаляет пару по указанному ключу.
+        containsValue(V) – проверка наличия значения.
+        containsKey(V) – проверка наличия ключа.
+        keySet() – возвращает множество ключей.
+        values() – возвращает набор значений.
+        entrySet() - можно гулять по множеству с помощью for.
+        Map<Integer,String> map1 = new HashMap<>();
+        Map<Integer,String> map2 = new HashMap<>(9);
+        Map<Integer,String> map3 = new HashMap<>(9, 1.0f);
+
+9. TreeMap - упорядочивание по ключу
+        TreeMap<Integer,String> tMap = new TreeMap<>();
+        put(K,V) 
+        get(K) 
+        remove(K)
+        descendingMap() - показать в обратном порядке
+        tailMap() - показать больше чем
+        headMap() - показать меньше чем
+        lastEntry() 
+        firstEntry()
+        descendingKeySet(V) - получить множество ключей
+
+10. LinkedHashMap - старший брат HashMap помнит порядок добавления элементов ➜ более медлительный
+        Map<Integer,String> linkmap = new LinkedHashMap<>();
+
+11. HashTable - устаревший брат HashMap не знает про null
+        Map<Integer,String> table = new Hashtable<>();
