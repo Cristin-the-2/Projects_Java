@@ -343,3 +343,32 @@ var - тип для неявной типизации
 
 11. HashTable - устаревший брат HashMap не знает про null
         Map<Integer,String> table = new Hashtable<>();
+
+12. HashSet
+        Set<Integer> set = new HashSet<>();
+        isEmpty() – проверка на пустоту.
+        add(V) – добавление элемента в коллекцию.
+        remove(V) – удаление элемента из коллекцию.
+        contains(V) – проверка на включение элемента в коллекции.
+        clear() – удаление всех элементов коллекции.
+        size() – возвращает количество элементов коллекции.
+        addAll(Coll) – объединение множеств.
+        retainAll(Coll) – пересечение множеств.
+        removeAll(Coll) – разность множеств.
+        first()
+        last()
+        headSet(E) 
+        tailSet(E)
+        subSet(E1, E2)
+
+13. TreeSet - в основе HashMap, упорядочен по возрастанию, null’ов быть не может.
+        var a = new TreeSet<>(Arrays.asList(1,7,2,3,6,4,5));
+
+14. LinkedHashSet - в основе HashMap, помнит порядок.
+        var a = new LinkedHashSet<>(Arrays.asList(1,7,2,3,6,4,5));
+        isEmpty() – проверка на пустоту.
+        add(V) – добавление элемента в коллекцию.
+        remove(V) – удаление элемента из коллекцию.
+        contains(V) – проверка на включение элемента в коллекции.
+        clear() – удаление всех элементов коллекции.
+        size() – возвращает количество элементов коллекции.
