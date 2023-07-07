@@ -1,3 +1,4 @@
+package Projects_Java.Seminar01;
 
 public class Task02 {
     // Дан массив двоичных чисел, например [1,1,0,1,1,1], вывести максимальное

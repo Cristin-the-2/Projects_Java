@@ -1,3 +1,5 @@
+package Projects_Java.Seminar02;
+
 import java.io.FileWriter;
 
 public class Task13 {

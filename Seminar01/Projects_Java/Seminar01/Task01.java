@@ -1,3 +1,5 @@
+package Projects_Java.Seminar01;
+
 import java.util.Scanner;
 
 /**

@@ -1,3 +1,5 @@
+package Projects_Java.Seminar02;
+
 import java.util.Scanner;
 
 public class Task12 {

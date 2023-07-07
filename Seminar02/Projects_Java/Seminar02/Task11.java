@@ -1,3 +1,5 @@
+package Projects_Java.Seminar02;
+
 import java.util.Scanner;
 public class Task11 {
     // Дано четное число N (>0) и символы c1 и c2. Написать метод, который вернет 
