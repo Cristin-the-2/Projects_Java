@@ -1,3 +1,4 @@
+package Projects_Java.Seminar01;
 
 public class Task03 {
     // Дан массив nums = [3,2,4,3,1,5,3,3] и число val = 3.
